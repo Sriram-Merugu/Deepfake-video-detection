@@ -1,0 +1,12 @@
+fastapi==0.95.2
+uvicorn==0.22.0
+opencv-python-headless==4.8.0.76
+numpy==1.23.5
+torch==1.13.1
+torchvision==0.14.1
+ultralytics==8.0.115
+matplotlib==3.6.2
+pandas==1.5.3
+seaborn==0.12.2
+scikit-learn==1.2.2
+pillow==9.2.0
