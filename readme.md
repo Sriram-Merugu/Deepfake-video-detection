@@ -9,7 +9,6 @@ This project implements a deepfake video detection system using a hybrid model. 
 
 - [Overview](#overview)
 - [Model Architecture](#model-architecture)
-- [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Running the Backend](#running-the-backend)
 - [Running the Frontend](#running-the-frontend)
@@ -97,7 +96,7 @@ This command will start the React development server. You can then navigate to t
 
 ## Notes
 
-- Ensure the YOLOv8 model weights (`yolov8n.pt`) and the hybrid model checkpoint (`final_hybrid_model3.pt`) are in the correct locations as specified in the code.
+- Ensure the YOLOv8 model weights (`yolov8n.pt`) and the hybrid model checkpoint (`final_hybrid_model3.pt`) are in the correct locations as specified in the code. You can generate .pt file by running the notebook in kaggle, and then copy paste the model in the backend directory. the yolov8n.pt file will be automatically generated when main.py is run.
 - If you encounter any issues with frame extraction or prediction, verify that the video file is valid and the required libraries are properly installed.
 - For further customization or debugging, refer to the logs printed by the backend.
 
